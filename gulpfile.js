@@ -17,9 +17,9 @@ elixir(mix => {
 
 	mix.copy('bower_components/uikit/js/uikit.js', 'resources/assets/js/uikit.js');
 
-mix.sass('app.scss', './public/dist')
+	mix.sass('app.scss', './public/dist')
 		.webpack('app.js', './public/dist');
 
-mix.copy('bower_components/uikit/fonts', 'public/fonts');
+	mix.copy('bower_components/uikit/fonts', 'public/fonts');
 
 });
