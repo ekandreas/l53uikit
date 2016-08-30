@@ -6,3 +6,6 @@
 Homestead.json
 Homestead.yaml
 .env
+/public/js/app.js
+/public/css/app.css
+/resources/assets/js/uikit.js
