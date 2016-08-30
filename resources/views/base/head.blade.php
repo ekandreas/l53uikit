@@ -4,6 +4,7 @@
     <title>L35uikit Starter</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
-    <script src="{{ elixir('js/app.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
+
