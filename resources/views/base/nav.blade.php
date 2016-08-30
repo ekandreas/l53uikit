@@ -1,5 +1,5 @@
 <nav class="uk-navbar uk-margin-large-bottom">
-    <a class="uk-navbar-brand uk-hidden-small" href="/">L35uikit</a>
+    <a class="uk-navbar-brand uk-hidden-small" href="/">l53uikit</a>
     <ul class="uk-navbar-nav uk-hidden-small">
         <li class="{{ (Request::is('/') ? 'uk-active' : '') }}">
             <a href="/">Frontpage</a>
@@ -21,5 +21,5 @@
         </li>
     </ul>
     <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-    <div class="uk-navbar-brand uk-navbar-center uk-visible-small">L35uikit</div>
+    <div class="uk-navbar-brand uk-navbar-center uk-visible-small">l35uikit</div>
 </nav>
