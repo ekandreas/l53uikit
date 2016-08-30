@@ -15,6 +15,8 @@ require('laravel-elixir-vue');
 
 elixir(mix => {
 
+    mix.copy('bower_components/uikit/js/uikit.js', 'resources/assets/js/uikit.js');
+
     mix.sass('app.scss')
        .webpack('app.js');
 

@@ -2,12 +2,12 @@
 
 @section('content')
 
-    @include('content.frontend.header')
+    @include('contents.frontend.header')
 
-    @include('content.frontend.subheader1')
-    @include('content.frontend.subheader2')
+    @include('contents.frontend.subheader1')
+    @include('contents.frontend.subheader2')
 
-    @include('content.frontend.quote')
-    @include('content.frontend.clients')
+    @include('contents.frontend.quote')
+    @include('contents.frontend.clients')
 
 @endsection
