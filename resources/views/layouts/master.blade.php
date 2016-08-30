@@ -5,17 +5,19 @@
 
 <body>
 
-<div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+        @include('base.ga')
 
-    @include('base.nav')
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-    @section('content')
-        Empty page!
-    @show
+            @include('base.nav')
 
-</div>
+            @section('content')
+                Empty page!
+            @show
 
-@include('base.offcanvas')
+        </div>
+
+        @include('base.offcanvas')
 
 </body>
 </html>

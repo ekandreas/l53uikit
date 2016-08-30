@@ -5,6 +5,8 @@
 
 <body class="uk-height-1-1">
 
+    @include('base.ga')
+
     <div class="uk-vertical-align uk-text-center uk-height-1-1">
 
         @section('content')
