@@ -6,7 +6,7 @@
                 <h1 class="uk-heading-large">Laravel with uikit</h1>
                 <p class="uk-text-large">Example layouts with uikit implemented in the latest version of Laravel 5.3 as a project starter.</p>
                 <p>
-                    <a class="uk-button uk-button-primary uk-button-large" href="https://github.com/ekandreas/l35uikit"><i class="uk-icon-bug"></i> Github</a>
+                    <a class="uk-button uk-button-primary uk-button-large" href="https://github.com/ekandreas/l53uikit"><i class="uk-icon-bug"></i> Github</a>
                     <a class="uk-button uk-button-large" href="http://getuikit.com/docs/layouts_frontpage.html"><i class="uk-icon-code"></i> Raw example layouts at uikit</a>
                 </p>
             </div>

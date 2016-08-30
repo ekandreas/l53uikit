@@ -4,13 +4,13 @@ date_default_timezone_set('Europe/Stockholm');
 include_once 'deployer/common.php';
 
 server( 'production', 'elseif.se' )
-	->env('deploy_path','~/l35uikit.elseif.se')
+	->env('deploy_path','~/l53uikit.elseif.se')
 	->user('forge')
 	->env('branch', 'master')
 	->stage('production')
 	->identityFile();
 
-set('repository', 'git@github.com:ekandreas/l35uikit.git');
+set('repository', 'git@github.com:ekandreas/l53uikit.git');
 
 set('env', 'production');
 set('keep_releases', 10);
